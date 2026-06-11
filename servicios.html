@@ -13,7 +13,7 @@
             <div class="logo">🌱 GREEN HOUSE SOLAR</div>
             <ul class="nav-links">
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                <li><a href="quienes-somos.html">¿Quiénes Somos?</a></li>
                 <li><a href="ambiente.html">Medio Ambiente</a></li>
                 <li><a href="funcionamiento.html">Funcionamiento</a></li>
                 <li><a href="servicios.html">Servicios</a></li>
@@ -22,149 +22,75 @@
         </div>
     </nav>
 
-    <!-- Header -->
-    <header class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Nuestros Servicios</h1>
-                <p class="tagline">Soluciones completas para agricultura sostenible</p>
-            </div>
+    <!-- SECCIÓN 1: HERO -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <div class="particles"></div>
         </div>
-    </header>
+        <div class="hero-content">
+    <h1 class="hero-title">Nuestros Servicios</h1>
 
-    <!-- Sección Principal -->
-    <main class="main-content">
-        <section class="section servicios">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Lo Que Ofrecemos</h2>
-                </div>
-                
-                <!-- Servicios Grid -->
-                <div class="servicios-grid">
-                    <div class="service-card verde">
-                        <div class="service-icon">☀</div>
-                        <h3>Generación de Energía Solar</h3>
-                        <p>
-                            Los paneles solares captan la luz del sol y la convierten en energía eléctrica renovable 
-                            para alimentar todo el sistema del invernadero.
-                        </p>
-                    </div>
+<div class="services-grid">
 
-                    <div class="service-card azul">
-                        <div class="service-icon">🌡</div>
-                        <h3>Control Automático de Temperatura</h3>
-                        <p>
-                            Sensores y ventiladores ayudan a mantener un ambiente fresco y adecuado para el crecimiento 
-                            saludable de las plantas.
-                        </p>
-                    </div>
+    <div class="service-card">
+        <div class="service-icon">☀️</div>
+        <h3>Generación de Energía Solar</h3>
+        <p>Los paneles solares captan la luz del sol y la convierten en energía eléctrica renovable para alimentar todo el sistema del invernadero.</p>
+    </div>
 
-                    <div class="service-card amarillo">
-                        <div class="service-icon">📡</div>
-                        <h3>Monitoreo Inteligente</h3>
-                        <p>
-                            El ESP32 supervisa variables como temperatura y humedad para controlar el funcionamiento 
-                            del invernadero de manera automática.
-                        </p>
-                    </div>
+    <div class="service-card">
+        <div class="service-icon">🌡️</div>
+        <h3>Control Automático de Temperatura</h3>
+        <p>Sensores y ventiladores ayudan a mantener un ambiente fresco y adecuado para el crecimiento saludable de las plantas.</p>
+    </div>
 
-                    <div class="service-card verde">
-                        <div class="service-icon">💡</div>
-                        <h3>Iluminación Eficiente</h3>
-                        <p>
-                            Las luces LED brindan apoyo lumínico a los cultivos cuando la luz solar es insuficiente, 
-                            optimizando el crecimiento.
-                        </p>
-                    </div>
+    <div class="service-card">
+        <div class="service-icon">📡</div>
+        <h3>Monitoreo Inteligente</h3>
+        <p>El ESP32 supervisa variables como temperatura y humedad para controlar el funcionamiento del invernadero.</p>
+    </div>
 
-                    <div class="service-card azul">
-                        <div class="service-icon">🌬</div>
-                        <h3>Ventilación Sostenible</h3>
-                        <p>
-                            El sistema permite la circulación del aire para evitar exceso de calor y humedad dentro 
-                            del invernadero, protegiendo las plantas.
-                        </p>
-                    </div>
+    <div class="service-card">
+        <div class="service-icon">💡</div>
+        <h3>Iluminación Eficiente</h3>
+        <p>Las luces LED brindan apoyo lumínico a los cultivos cuando la luz solar es insuficiente.</p>
+    </div>
 
-                    <div class="service-card amarillo">
-                        <div class="service-icon">🛡</div>
-                        <h3>Protección de Cultivos</h3>
-                        <p>
-                            La estructura protege las plantas frente a lluvias intensas, plagas y cambios bruscos 
-                            del clima, mejorando la producción agrícola.
-                        </p>
-                    </div>
-                </div>
+    <div class="service-card">
+        <div class="service-icon">🌬️</div>
+        <h3>Ventilación Sostenible</h3>
+        <p>El sistema permite la circulación del aire para evitar exceso de calor y humedad dentro del invernadero.</p>
+    </div>
 
-                <!-- Imagen de Servicios -->
-                <div class="services-image">
-                    <img src="assets/servicios.jpg" alt="Nuestros Servicios en Acción">
-                    <p class="placeholder-text">[Imagen: Team y servicios en acción]</p>
-                </div>
+    <div class="service-card">
+        <div class="service-icon">🛡️</div>
+        <h3>Protección de Cultivos</h3>
+        <p>La estructura protege las plantas frente a lluvias intensas, plagas y cambios bruscos del clima.</p>
+    </div>
 
-                <!-- Tabla Comparativa -->
-                <div class="comparison-section">
-                    <h3>Agricultura Tradicional vs Green House Solar</h3>
-                    <table class="comparison-table">
-                        <thead>
-                            <tr>
-                                <th>Aspecto</th>
-                                <th>Agricultura Tradicional</th>
-                                <th>Green House Solar</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><strong>Energía</strong></td>
-                                <td>Dependencia de red eléctrica</td>
-                                <td>100% Energía Solar Renovable</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Consumo de Agua</strong></td>
-                                <td>Alto desperdicio</td>
-                                <td>60% menos consumo</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Control Climático</strong></td>
-                                <td>Manual y limitado</td>
-                                <td>Automático e Inteligente</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Rendimiento</strong></td>
-                                <td>Varío y dependiente del clima</td>
-                                <td>Consistente y optimizado</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Impacto Ambiental</strong></td>
-                                <td>Alto</td>
-                                <td>Mínimo y Sostenible</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Plagas</strong></td>
-                                <td>Químicos contaminantes</td>
-                                <td>Protección física natural</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </section>
-
-        <!-- CTA Button -->
-        <section class="cta-section">
-            <div class="container">
-                <a href="contacto.html" class="cta-button">Contáctanos Hoy &rarr;</a>
-            </div>
-        </section>
-    </main>
+</div>
+    </section>
+ <section class="info-section">
+    <div class="info-container">
+   
+           
+                   <div class="hero-content">
+        <div class="hero-content">
+            <h3 class="hero-title">GREEN HOUSE SOLAR</h3>
+            <p class="hero-subtitle">"El futuro del campo nace donde la naturaleza y la innovación se unen."</p>
+                <br></br>
+             <button class="hero-button" onclick="window.location.href='funcionamiento.html'">← Funcionamiento   </button>
+            <button class="hero-button" onclick="window.location.href='contacto.html'">Contacto →</button>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Green House Solar. Comprometidos con la agricultura sostenible.</p>
-            <p>&#128222; +57 318 642 9087 | &#9993; greenhouseesolar.co@gmail.com</p>
-        </div>
+        <p>&copy; 2026 Green House Solar. Innovación en Agricultura Sostenible.</p>
     </footer>
+</section>
+    <!-- Scripts -->
+    <script src="js/premium-script.js"></script>
 </body>
 </html>

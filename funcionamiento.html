@@ -22,132 +22,82 @@
         </div>
     </nav>
 
-
-    <!-- Header -->
-    <header class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Cómo Funciona</h1>
-                <p class="tagline">Tecnología solar inteligente para agricultura sostenible</p>
-            </div>
+    <!-- SECCIÓN 1: HERO -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <div class="particles"></div>
         </div>
-    </header>
+<div class="hero-content">
+           <div class="video-container">
+            <video autoplay muted loop controls>
+                <source src="vd/funcionamiento.mp4" type="video/mp4">
+            </video>
+        </div>
+    <h2 class="section-title"> ¿Cómo funciona? </h2>
 
-    <!-- Sección Principal -->
-    <main class="main-content">
-        <section class="section funcionamiento">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Cómo Funciona Nuestro Invernadero Solar</h2>
-                </div>
-                
-                <!-- Video Section -->
-                <div class="video-container">
-                    <div class="video-placeholder">
-                        <p class="placeholder-text">[VIDEO: Demostración del Invernadero Solar en Funcionamiento]</p>
-                    </div>
-                </div>
-
-                <!-- Descripción del Sistema -->
-                <div class="system-description">
-                    <div class="description-box">
-                        <h3>El Sistema Completo</h3>
-                        <p>
-                            Nuestro invernadero solar funciona mediante <strong>paneles solares de 12V</strong> conectados a un 
-                            <strong>regulador LM2596</strong>, el cual distribuye y regula la energía para alimentar el sistema 
-                            automático controlado por el <strong>ESP32</strong>; este recibe información de sensores de temperatura, 
-                            humedad y humedad del suelo para activar automáticamente los ventiladores, el sistema de riego y la 
-                            iluminación cuando sea necesario, permitiendo mantener condiciones ideales para el crecimiento de las 
-                            plantas, ahorrar agua y energía, y ofrecer una solución ecológica, sostenible y eficiente dirigida a 
-                            los campesinos mediante el uso de energía renovable.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Diagrama del Funcionamiento -->
-                <div class="diagram-section">
-                    <h3>Flujo del Sistema</h3>
-                    <div class="flow-diagram">
-                        <div class="flow-step">
-                            <div class="step-icon">☀</div>
-                            <p>Paneles Solares<br>12V</p>
-                        </div>
-                        <div class="flow-arrow">&rarr;</div>
-                        <div class="flow-step">
-                            <div class="step-icon">⚡</div>
-                            <p>Regulador<br>LM2596</p>
-                        </div>
-                        <div class="flow-arrow">&rarr;</div>
-                        <div class="flow-step">
-                            <div class="step-icon">🧠</div>
-                            <p>Controlador<br>ESP32</p>
-                        </div>
-                        <div class="flow-arrow">&rarr;</div>
-                        <div class="flow-step">
-                            <div class="step-icon">📊</div>
-                            <p>Sistema<br>Automático</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Componentes Principales -->
-                <div class="components-grid">
-                    <div class="component-card">
-                        <h4>Sensores</h4>
-                        <ul>
-                            <li>Temperatura</li>
-                            <li>Humedad del Aire</li>
-                            <li>Humedad del Suelo</li>
-                        </ul>
-                    </div>
-                    <div class="component-card">
-                        <h4>Ventilación</h4>
-                        <ul>
-                            <li>Ventiladores Automáticos</li>
-                            <li>Control de Temperatura</li>
-                            <li>Circulación de Aire</li>
-                        </ul>
-                    </div>
-                    <div class="component-card">
-                        <h4>Riego Inteligente</h4>
-                        <ul>
-                            <li>Riego Automático</li>
-                            <li>Control de Humedad</li>
-                            <li>Ahorro de Agua</li>
-                        </ul>
-                    </div>
-                    <div class="component-card">
-                        <h4>Iluminación</h4>
-                        <ul>
-                            <li>Luces LED Eficientes</li>
-                            <li>Control Automático</li>
-                            <li>Apoyo Lumínico</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Imagen del Invernadero -->
-                <div class="greenhouse-image">
-                    <img src="assets/diagrama-invernadero.jpg" alt="Diagrama del Invernadero Solar">
-                    <p class="placeholder-text">[Imagen: Diagrama técnico del invernadero con todos los componentes]</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- CTA Button -->
-        <section class="cta-section">
-            <div class="container">
-                <a href="servicios.html" class="cta-button">Conoce Nuestros Servicios &rarr;</a>
-            </div>
-        </section>
-    </main>
+    <p class="hero-subtitle">
+Nuestro invernadero solar funciona mediante paneles solares de 12V conectados a un regulador LM2596, el cual distribuye y regula la energía para alimentar el sistema automático controlado por el ESP32; este recibe información de sensores de temperatura, humedad y humedad del suelo para activar automáticamente los ventiladores, el sistema de riego y la iluminación cuando sea necesario, permitiendo mantener condiciones ideales para el crecimiento de las plantas, ahorrar agua y energía, y ofrecer una solución ecológica, sostenible y eficiente dirigida a los campesinos mediante el uso de energía renovable.    </p>
+<br></br>
+<img src="img/diagrama.png"
+     alt="Diagrama"
+     class="quienes-img"
+     id="imagenDiagrama">
+    </div>
+    </section>
+ <section class="info-section">
+    <div class="info-container">
+   
+           
+                   <div class="hero-content">
+        <div class="hero-content">
+            <h3 class="hero-title">GREEN HOUSE SOLAR</h3>
+            <p class="hero-subtitle">"El futuro del campo nace donde la naturaleza y la innovación se unen."</p>
+                <br></br>
+             <button class="hero-button" onclick="window.location.href='ambiente.html'">← Impacto Ambiental</button>
+            <button class="hero-button" onclick="window.location.href='servicios.html'">Servicios →</button>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Green House Solar. Comprometidos con la agricultura sostenible.</p>
-            <p>&#128222; +57 318 642 9087 | &#9993; greenhouseesolar.co@gmail.com</p>
-        </div>
+        <p>&copy; 2026 Green House Solar. Innovación en Agricultura Sostenible.</p>
     </footer>
+</section>
+    <!-- Scripts -->
+    <script src="js/premium-script.js"></script>
+
+<!-- Modal Imagen -->
+<div id="imagenModal" class="imagen-modal">
+    <span class="cerrar-modal">&times;</span>
+    <img class="imagen-modal-contenido" id="imagenGrande">
+</div>
+
+<script>
+window.onload = function () {
+
+    const imagen = document.getElementById("imagenDiagrama");
+    const modal = document.getElementById("imagenModal");
+    const imagenGrande = document.getElementById("imagenGrande");
+
+    if (imagen) {
+        imagen.addEventListener("click", function () {
+            modal.style.display = "flex";
+            imagenGrande.src = this.src;
+        });
+    }
+
+    modal.addEventListener("click", function () {
+        modal.style.display = "none";
+    });
+
+    document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") {
+            modal.style.display = "none";
+        }
+    });
+
+};
+</script>
 </body>
 </html>
